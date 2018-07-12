@@ -40,6 +40,7 @@ header {
 
 .mainvisual {
     padding-bottom: 60px;
+    width: 453px;
 }
 
 .btn {
@@ -49,10 +50,13 @@ header {
     border: 1px #FFCD00 solid;
     padding: 15px 40px;
     text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
 }
 
 .btn:hover {
-    opacity: 0.7;
+    color: #001432;
+    background-color: #FFCD00;
 }
 
 section {
@@ -107,6 +111,30 @@ section {
     width: 232px;
     float: left;
     margin: 0 18px 18px 0;
+}
+
+.thema1 {
+    animation-delay: 0;
+}
+
+.thema2 {
+    animation-delay: 0.1s;
+}
+
+.thema3 {
+    animation-delay: 0.2s;
+}
+
+.thema4 {
+    animation-delay: 0.3s;
+}
+
+.thema5 {
+    animation-delay: 0.4s;
+}
+
+.thema6 {
+    animation-delay: 0.5s;
 }
 
 .thema h3 {
