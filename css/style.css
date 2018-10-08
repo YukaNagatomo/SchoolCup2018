@@ -82,7 +82,7 @@ header {
   font-size: 16px;
   letter-spacing: 2.5px;
   color: #FFCD00;
-  background-color: #001432;
+  background-color: #00143285;
   border: 1px #FFCD00 solid;
   padding: 15px 64px;
   text-decoration: none;
@@ -137,46 +137,52 @@ section {
 }
 
 .thema-wrapper {
-  width: 750px;
-  padding: 50px 0 0 18px;
+  width: 870px;
+  padding: 20px 0 0 18px;
   margin: 0 auto 20px;
   overflow: hidden;
 }
 
 .thema {
-  width: 232px;
+  width: 272px;
   float: left;
   margin: 0 18px 18px 0;
 }
 
 .thema1 {
   animation-delay: 0;
+  background-color: #c0392b;
 }
 
 .thema2 {
   animation-delay: 0.1s;
+  background-color: #f39c12;
 }
 
 .thema3 {
   animation-delay: 0.2s;
+  background-color: #f1c40f;
 }
 
 .thema4 {
   animation-delay: 0.3s;
+  background-color: #16a085;
 }
 
 .thema5 {
   animation-delay: 0.4s;
+  background-color: #2980b9;
 }
 
 .thema6 {
   animation-delay: 0.5s;
+  background-color: #8e44ad;
 }
 
 .thema h3 {
-  color: #FFCD00;
-  font-size: 16px;
-  background-color: #001432;
+  color: #ffffff;
+  font-size: 17px;
+  /*  background-color: #001432;*/
   height: 52px;
   line-height: 52px;
 }
@@ -184,12 +190,13 @@ section {
 .thema h3 span {
   font-size: 38px;
   padding: 10px;
+  padding-right: 0px;
 }
 
 .thema p {
   padding: 20px 10px;
   background-color: #fff;
-  font-size: 12px;
+  font-size: 14px;
   height: 56px;
 }
 
@@ -247,7 +254,7 @@ section {
 }
 
 .makingmovie h3 {
-  color: #FFCD00;
+  color: #001432;
   font-size: 24px;
   padding: 30px 0 10px;
 }
